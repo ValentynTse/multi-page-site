@@ -83,7 +83,7 @@ a {
     font-weight: 700;
 }
 
-.menu__list-link--active{
+.menu__list-link--active {
     color: #0066ff;
 }
 
@@ -328,7 +328,7 @@ a {
 }
 
 .form__input::placeholder,
-.form__textarea::placeholder{
+.form__textarea::placeholder {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -336,7 +336,7 @@ a {
     color: #000;
     opacity: 0.5;
 }
- 
+
 
 .form__textarea {
     width: 100%;
@@ -366,41 +366,41 @@ a {
     cursor: pointer;
 }
 
-.blog{
+.blog {
     padding-bottom: 150px;
 }
 
-.blog__items{
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-gap: 40px;
-margin-bottom: 70px;
+.blog__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-bottom: 70px;
 }
 
-.blog__item{
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
+.blog__item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.blog__item-img{
-margin-bottom: 30px;
-width: 100%;
+.blog__item-img {
+    margin-bottom: 30px;
+    width: 100%;
 }
 
-.blog__item-title{
-flex-basis: 446px;
-font-size: 24px;
-font-weight: 700;
+.blog__item-title {
+    flex-basis: 446px;
+    font-size: 24px;
+    font-weight: 700;
 }
 
-.blog__item-link{
-color: #fff;
-background-color: #0066ff;
-padding: 4px 20px;
+.blog__item-link {
+    color: #fff;
+    background-color: #0066ff;
+    padding: 4px 20px;
 }
 
-.blog__link{
+.blog__link {
     text-transform: uppercase;
     background-color: #151515;
     padding: 13px;
@@ -409,6 +409,90 @@ padding: 4px 20px;
     margin: 0 auto;
     text-align: center;
     display: block;
+}
+
+
+/* NEW CARS PAGE */
+
+.choose {
+    padding: 100px 0 150px;
+}
+
+.tabs {
+    margin-bottom: 70px;
+}
+
+.tabs__btn {
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding-bottom: 100px;
+
+}
+
+.tabs__btn-item {
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.tabs__btn-item--active {
+    color: #0066ff;
+}
+
+.tabs__content {}
+
+.tabs__content-item {
+    display: none;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px 40px;   
+
+}
+
+.tabs__content-item.tabs__content-item--active{
+    display: grid;
+}
+
+.card {
+    text-align: center;
+}
+
+.card__content {
+    padding: 0 5px;
+    border: 1px solid #0066ff;
+    border-top: 0;
+}
+
+.card__img {
+    display: block;
+}
+
+.card__title {
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card__text {
+    margin-bottom: 20px;
+}
+
+.card__price {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card__link {
+    display: block;
+    color: #0066ff;
+    border: 1px solid #0066ff;
+    border-top: 0;
 }
 
 
