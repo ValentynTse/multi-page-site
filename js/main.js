@@ -10,9 +10,15 @@ barba.init({
     name: 'opacity-transition',
     sync: true,
     leave(data) {
-      return gsap.to(data.current.container, {
+      return gsap.timeline().to(data.current.container, {
         opacity: 0
-      });
+      })
+        .fromTo('.box', {
+          duration:1,
+          x: '100%'
+        }, {
+          x: '-100%'
+        }, 0)
     },
     enter(data) {
       return gsap.from(data.next.container, {
